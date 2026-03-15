@@ -1,12 +1,19 @@
-# NEURON
+<p align="center">
+  <img src="cover.png" alt="NEURON - Hybrid Memory Architecture for LLMs" width="100%">
+</p>
 
-**Neural Encoding with Unified Recurrent Optimized Network**
+<h1 align="center">NEURON</h1>
 
-> Hybrid memory architecture combining exact recall with infinite-capacity fuzzy understanding for LLMs.
+<p align="center">
+  <strong>Neural Encoding with Unified Recurrent Optimized Network</strong><br>
+  Hybrid memory architecture combining exact recall with infinite-capacity fuzzy understanding for LLMs.
+</p>
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
-[![Tests](https://github.com/ertugrulakben/neuron/actions/workflows/ci.yml/badge.svg)](https://github.com/ertugrulakben/neuron/actions)
+<p align="center">
+  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"></a>
+  <a href="https://www.python.org/downloads/"><img src="https://img.shields.io/badge/python-3.10+-blue.svg" alt="Python 3.10+"></a>
+  <a href="https://github.com/ertugrulakben/NEURON/actions"><img src="https://github.com/ertugrulakben/NEURON/actions/workflows/ci.yml/badge.svg" alt="Tests"></a>
+</p>
 
 ---
 
