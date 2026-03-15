@@ -10,7 +10,7 @@ Key Features:
 
 import time
 from dataclasses import dataclass, field
-from typing import Any, Optional
+from typing import Any
 
 import torch
 import torch.nn.functional as F

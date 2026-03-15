@@ -11,12 +11,12 @@ detects contradictions, and enables confidence-weighted retrieval.
 __version__ = "0.3.0"
 
 from neuron.config import NeuronConfig
-from neuron.core.neuron import NEURON
+from neuron.core.belief import BeliefState, ContradictionType, TemporalBeliefGraph
 from neuron.core.crystal import CrystalMemory
-from neuron.core.morph import MorphLayer
-from neuron.core.router import ImportanceRouter
 from neuron.core.fusion import FusionLayer
-from neuron.core.belief import TemporalBeliefGraph, ContradictionType, BeliefState
+from neuron.core.morph import MorphLayer
+from neuron.core.neuron import NEURON
+from neuron.core.router import ImportanceRouter
 
 __all__ = [
     "NEURON",

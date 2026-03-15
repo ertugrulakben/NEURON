@@ -13,18 +13,18 @@ TBG is the key original contribution: tracks belief states, detects
 contradictions, and enables confidence-weighted retrieval.
 """
 
-from typing import Any, Optional, Union
+from typing import Optional
 
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
 from neuron.config import NeuronConfig
+from neuron.core.belief import TemporalBeliefGraph
 from neuron.core.crystal import CrystalMemory
+from neuron.core.fusion import CrossMemoryConsolidator, FusionLayer
 from neuron.core.morph import MorphLayer
 from neuron.core.router import ImportanceRouter, RouteDecision
-from neuron.core.fusion import FusionLayer, CrossMemoryConsolidator
-from neuron.core.belief import TemporalBeliefGraph, ContradictionType
 
 
 class NEURON(nn.Module):
